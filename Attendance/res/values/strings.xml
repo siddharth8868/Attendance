@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AttendanceActivity!</string>
+    <string name="app_name">Attendance</string>
+    <string name="helps">This application helps you to record the attendance of your classes.\nWORKING: \n
+        1 At first you need to select Add Class button on front page and need to add your class with its
+         strength.\n
+        2 Select Take Attendance button where you are provided with a new page, you can take attendance
+         in two ways, either by entering into text field and pressing enter button or by pressing record
+          button and speak which automatically records and takes attendance. once you are done with
+           taking attendance press OK button at top to conform attendance. Before conforming you can
+            even edit attendance by long pressing on the number to be edited. \n
+            3 You can view your attendance by clicking the View attendance, in it on pressing menu button
+             you will be given options which can be performed.\n
+            4 You can delete your class by clicking on Delete Class button.
+        </string>
+        <string name="image">Thumbnail</string>
+        
+        <string-array name="noofperiods">
+			<item >1</item>
+			<item >2</item>
+			<item >3</item>
+			<item >4</item>
+			<item >5</item>
+			<item >6</item>
+			<item >7</item>
+		</string-array>
+
+</resources>

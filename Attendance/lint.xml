@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/list_item.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/add.xml" />
+        <ignore path="res/layout/addstudents.xml" />
+        <ignore path="res/layout/analysis.xml" />
+        <ignore path="res/layout/checkbox.xml" />
+        <ignore path="res/layout/list_item.xml" />
+        <ignore path="res/layout/list_row.xml" />
+        <ignore path="res/layout/listitem_all.xml" />
+        <ignore path="res/layout/main.xml" />
+        <ignore path="res/layout/mains.xml" />
+        <ignore path="res/layout/take.xml" />
+    </issue>
+    <issue id="InefficientWeight">
+        <ignore path="res/layout/add.xml" />
+        <ignore path="res/layout/analysis.xml" />
+        <ignore path="res/layout/take.xml" />
+    </issue>
+    <issue id="ObsoleteLayoutParam">
+        <ignore path="res/layout/analysis.xml" />
+        <ignore path="res/layout/take.xml" />
+    </issue>
+    <issue id="ScrollViewSize">
+        <ignore path="res/layout/help.xml" />
+        <ignore path="res/layout/take.xml" />
+    </issue>
+    <issue id="SdCardPath" severity="ignore" />
+    <issue id="ShowToast" severity="ignore" />
+    <issue id="SpUsage">
+        <ignore path="res/layout/list_item.xml" />
+        <ignore path="res/layout/main.xml" />
+    </issue>
+    <issue id="TextFields">
+        <ignore path="res/layout/add.xml" />
+    </issue>
+    <issue id="UnknownIdInLayout">
+        <ignore path="res/layout/list_item.xml" />
+        <ignore path="res/layout/take.xml" />
+    </issue>
+    <issue id="UselessParent">
+        <ignore path="res/layout/add.xml" />
+        <ignore path="res/layout/help.xml" />
+    </issue>
+</lint>

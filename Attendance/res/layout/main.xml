@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/aa"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRowforlast"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attendence Register"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FF0000"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center|right"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:onClick="add"
+            android:text="Add Class" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:onClick="take"
+            android:text="Take Attendance" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:onClick="view"
+            android:text="View Attendance" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:onClick="delete"
+            android:text="Delete Class" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:onClick="analysis"
+            android:text="Analysis" />
+        
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:onClick="help"
+            android:text="Help" />
+    </LinearLayout>
+
+</LinearLayout>
